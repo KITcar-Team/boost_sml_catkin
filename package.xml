@@ -1,0 +1,14 @@
+<package>
+  <name>boost_sml_catkin</name>
+  <version>1.0.0</version>
+  <description>a state machine implementation </description>
+
+  <url type="website">https://github.com/boost-experimental/sml</url>
+
+  <author>Jean Davy</author>
+<maintainer email="kris@jusiak.net">Kris Jusiak</maintainer>
+ <license>Boost Software License, Version 1.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+</package>
