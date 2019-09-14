@@ -17,7 +17,7 @@ ExternalProject_Add(boost_sml_src
   GIT_TAG 8968695b40ce1c9dad7ba78d8220f5b7bf458d08
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
-  INSTALL_COMMAND rm -rf ${CATKIN_DEVEL_PREFIX}/include/boost_sml_catkin/* && cp ../boost_sml_src/include/boost/sml.hpp ${CATKIN_DEVEL_PREFIX}/include/boost_sml_catkin/
+  INSTALL_COMMAND rsync -a ../boost_sml_src/include/boost/ ${CATKIN_DEVEL_PREFIX}/include/boost_sml_catkin/
 )
 
 include_directories(${CATKIN_DEVEL_PREFIX}/include/)
