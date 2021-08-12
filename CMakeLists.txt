@@ -14,7 +14,7 @@ file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include/boost_sml_catkin)
 
 ExternalProject_Add(boost_sml_src
   GIT_REPOSITORY https://github.com/boost-experimental/sml.git
-  GIT_TAG 2dab1265f87f70a2941af9de8f3f157df9a6a53f
+  GIT_TAG b20a8e0d091343560ee2baa83057a77748f02b88
   CONFIGURE_COMMAND ""
   BUILD_COMMAND ""
   INSTALL_COMMAND rsync -a ../boost_sml_src/include/boost/sml.hpp ${CATKIN_DEVEL_PREFIX}/include/boost_sml_catkin/sml.hpp
